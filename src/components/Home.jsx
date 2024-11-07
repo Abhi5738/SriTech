@@ -1,20 +1,35 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ExploreSection from "./ExploreSection";
+import WhyChooseUsSection from "./WhyChooseUsSection";
+import Client from "./Client";
+import ContactFormHomePage from "./ContactFormHomePage";
+import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
+import Footer from "./footer";
 
 const Home = () => {
   return (
     <>
-      <div className="App">
-      <h1>Welcome to Font Awesome with React and Vite!</h1>
-      <p>
-        Enjoy a cup of coffee <FontAwesomeIcon icon="coffee" /> or celebrate your success with a check mark!{' '}
-        <FontAwesomeIcon icon="check-circle" />
-      </p>
-    </div>
+      <div className=" ">
+        <div className="">
+          <ExploreSection />
+        </div>
+        <div className="">
+          <WhyChooseUsSection />
+        </div>
+        <div className="">
+          <Client />
+        </div>
+        <div className="">
+          <ContactFormHomePage />
+        </div>
+        <div className="">
+          <FrequentlyAskedQuestions />
+        </div>
+      </div>
     </>
   );
 };
 
 export default Home;
- 
