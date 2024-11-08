@@ -63,17 +63,17 @@ const WhyChooseUsSection = () => {
   return (
     <>
       <div className="bg-gray-100 ">
-        <div className="pt-20 pb-7">
+        <div className="pt-20 pb-7 ">
           <p className="text-3xl font-bold text-center text-gray-900 mb-8">
             Why Choose Us
           </p>
         </div>
-        <div className="cards card flex flex-col gap-7 items-center  rounded-lg p-8 shadow-lg">
+        <div className="px-5 sm:px-20 cards card flex flex-col items-center rounded-lg shadow-lg">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
             {cards.map((card, index) => {
               return (
                 <div key={index}>
-                  <div className="bg-white p-7 max-w-xs rounded-xl shadow-[0_6px_6px_-1px_rgba(0,0,0,0.1)] transition-transform transform hover:scale-105 h-full ">
+                  <div className="bg-white p-7 max-w-xs lg:max-w-[250px] rounded-xl shadow-[0_6px_6px_-1px_rgba(0,0,0,0.1)] transition-transform transform hover:scale-105 h-full ">
                     <div className="flex justify-center items-center mb-4">
                       {card.svg}
                     </div>

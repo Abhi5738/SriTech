@@ -15,7 +15,7 @@ const Footer = () => {
             <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-center">
               <li>
                 <a
-                  class="hover:text-purple-300 text-xl transition"
+                  className="hover:text-purple-300 text-xl transition"
                   href="/faqs"
                 >
                   FAQs
@@ -23,7 +23,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  class="hover:text-purple-300 text-xl transition"
+                  className="hover:text-purple-300 text-xl transition"
                   href="/contact"
                 >
                   Contact us
@@ -31,7 +31,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  class="hover:text-purple-300 text-xl transition"
+                  className="hover:text-purple-300 text-xl transition"
                   href="/terms"
                 >
                   Terms &amp; Conditions
@@ -39,18 +39,18 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  class="hover:text-purple-300 text-xl transition"
+                  className="hover:text-purple-300 text-xl transition"
                   href="/privacy-policy"
                 >
                   Privacy Policy
                 </a>
               </li>
-              <li class="flex justify-center space-x-4 mt-4 md:mt-0">
+              <li className="flex justify-center space-x-4 mt-4 md:mt-0">
                 <a
                   href="https://www.linkedin.com/company/tutoratech"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="hover:text-purple-300 text-2xl transition"
+                  className="hover:text-purple-300 text-2xl transition"
                 >
                   <LinkedinSvg />
                 </a>
@@ -58,7 +58,7 @@ const Footer = () => {
                   href="https://www.instagram.com/mahesh_sirswa"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="hover:text-purple-300 text-2xl transition"
+                  className="hover:text-purple-300 text-2xl transition"
                 >
                   <InstagramSvg />
                 </a>
@@ -66,7 +66,7 @@ const Footer = () => {
                   href="https://wa.me/+919352363057"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="hover:text-purple-300 text-2xl transition"
+                  className="hover:text-purple-300 text-2xl transition"
                 >
                   <WhatsappSvg />
                 </a>

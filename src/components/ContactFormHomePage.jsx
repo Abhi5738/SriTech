@@ -18,8 +18,8 @@ const ContactFormHomePage = () => {
         </div>
         <div className="flex-1 bg-white rounded-lg shadow-xl p-10 max-w-lg mx-auto">
           <h3 className="text-4xl font-bold text-purple-800 mb-6">Email Us</h3>
-          <form className="space-y-6 ">
-            <div className="pb-6">
+          <form className="space-y-3 ">
+            <div className="pb-1">
               <label
                 htmlFor="name"
                 className="block text-sm font-medium text-gray-700 mb-2"
@@ -35,7 +35,7 @@ const ContactFormHomePage = () => {
                 required=""
               />
             </div>
-            <div className="pb-6">
+            <div className="pb-1">
               <label
                 htmlFor="contactNumber"
                 className="block text-sm font-medium text-gray-700 mb-2"
@@ -51,7 +51,7 @@ const ContactFormHomePage = () => {
                 required=""
               />
             </div>
-            <div className="pb-6">
+            <div className="pb-1">
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700 mb-2"
@@ -67,7 +67,7 @@ const ContactFormHomePage = () => {
                 required=""
               />
             </div>
-            <div className="pb-6">
+            <div className="pb-1">
               <label className="block text-sm font-medium text-gray-700">
                 Reason
               </label>
@@ -78,7 +78,7 @@ const ContactFormHomePage = () => {
                 placeholder="Reason for contact"
               />
             </div>
-            <div className="pb-6">
+            <div className="pb-1">
               <label className="block text-sm font-medium text-gray-700">
                 Message
               </label>

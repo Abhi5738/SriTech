@@ -1,18 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ExploreSection from "./ExploreSection";
 import WhyChooseUsSection from "./WhyChooseUsSection";
 import Client from "./Client";
 import ContactFormHomePage from "./ContactFormHomePage";
 import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
-import Footer from "./footer";
+
 
 const Home = () => {
   return (
     <>
-      <div className=" ">
-        <div className="">
+      <div className="">
+        <div className="px-5 sm:px-20">
           <ExploreSection />
         </div>
         <div className="">

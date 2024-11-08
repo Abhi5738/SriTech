@@ -2,13 +2,13 @@ import React from "react";
 
 const cards = [
   {
-    heading: "Ankit Kumar",
-    title: "Senior Backend Developer, TCS",
+    heading: "Ankit kumawat",
+    title: "Senior Frontend Developer, TCS",
     description:
       "I am very thankful to the TutoraTech platform for providing me with an 8-week internship, during which I learned Node.js and its applications. This experience significantly helped me in successfully switching my job.",
   },
   {
-    heading: "Krisan Kumar",
+    heading: "Krishan Kumar",
     title: "Senior Backend Developer, TCS",
     description:
       "I am very thankful to the TutoraTech platform for providing me with an 8-week internship, during which I learned Node.js and its applications. This experience significantly helped me in successfully switching my job.",
@@ -51,7 +51,7 @@ const Client = () => {
             Our success is measured by your success.
           </p>
         </div>
-        <div className="cards card flex flex-col gap-7 items-center  rounded-lg p-8 shadow-lg">
+        <div className="px-5 sm:px-20 py-8 cards card flex flex-col gap-7 items-center  rounded-lg shadow-lg">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2">
             {cards.map((card, index) => {
               return (

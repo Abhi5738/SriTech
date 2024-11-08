@@ -4,12 +4,12 @@ import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Courses from "./components/Courses";
 import ContactUs from "./components/ContactUs";
+import Footer from './components/Footer'
 import "../src/index.css";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions";
-import Footer from "./components/footer";
 import TrainingsAndInternship from "./components/TrainingsAndInternship";
 import ResumeWritingAndReview from "./components/ResumeWritingAndReview";
-import MockInterview from "./components/mockInterview";
+import MockInterview from "./components/MockInterview";
 import JobReferrals from "./components/JobReferrals";
 import Contact from "./components/Contact";
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route path="/resume" element={<ResumeWritingAndReview />} />
         <Route path="/mock-interview" element={<MockInterview />} />
         <Route path="/referrals" element={<JobReferrals />} />
-        <Route path="/contact" element={<Contact />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

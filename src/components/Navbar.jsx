@@ -17,7 +17,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white px-5 sm:px-20 flex h-20 justify-between items-center shadow-md ">
-      <div className="text-purple-700 text-3xl font-bold">SriTech</div>
+      <Link to="/">
+        <div className="text-purple-700 text-3xl font-bold">SriTech</div>
+      </Link>
 
       {/* Desktop Links */}
       <div className="md:flex items-center md:gap-10 gap-14 text-white hidden">
